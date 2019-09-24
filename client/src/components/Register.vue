@@ -34,6 +34,7 @@ export default {
         email: this.email,
         password: this.password
       })
+      console.log(AuthenticationService)
       console.log(response.data)
     }
   }
